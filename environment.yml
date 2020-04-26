@@ -10,6 +10,7 @@ dependencies:
   - pandas
   - nbstripout
   - pybind11
+  - jupyterlab-git
   - pip=20.0.2
   - pip:
     - jupyter-offlinenotebook==0.1.0
