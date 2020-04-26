@@ -5,13 +5,25 @@ channels:
   - defaults
 dependencies:
   - xeus-cling
-  - bokeh
+  - setuptools
+  - scikit-build
+  - pybind11        # for pytp
+  - vs2015_runtime  # [win]
+  - nose            # for testing
+  - colorama
+  - jupyterlab
   - numpy
+  - scipy
   - pandas
+  - seaborn
+  - bokeh
+  - sympy
+  - filterpy
+  - nodejs
   - nbstripout
-  - pybind11
-  - pip=20.0.2
+  - jupyter_bokeh
   - jupyter_contrib_nbextensions
+  - pip=20.0.2
   - pip:
     - jupyter-offlinenotebook==0.1.0
 prefix: /srv/conda/envs/notebook
