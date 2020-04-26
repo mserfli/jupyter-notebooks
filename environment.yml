@@ -1,0 +1,17 @@
+name: notebook
+channels:
+  - conda-forge
+  - https://conda.anaconda.org/conda-forge
+  - defaults
+dependencies:
+  - xeus-cling
+  - bokeh
+  - numpy
+  - pandas
+  - nbstripout
+  - pybind11
+  - pip=20.0.2
+  - pip:
+    - jupyter-offlinenotebook==0.1.0
+prefix: /srv/conda/envs/notebook
+
