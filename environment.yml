@@ -10,8 +10,8 @@ dependencies:
   - pandas
   - nbstripout
   - pybind11
-  - jupyterlab-git
   - pip=20.0.2
+  - jupyter_contrib_nbextensions
   - pip:
     - jupyter-offlinenotebook==0.1.0
 prefix: /srv/conda/envs/notebook

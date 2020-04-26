@@ -1,0 +1,6 @@
+jupyter contrib nbextension install --user
+
+nbstripout --install --attributes .gitattributes
+
+git config --local user.name "mserfli"
+git config --local user.email "mserfli@users.noreply.github.com"
