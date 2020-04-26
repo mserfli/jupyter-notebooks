@@ -1,0 +1,9 @@
+.cache
+.conda
+.config
+.empty
+.ipynb_checkpoints
+.ipython
+.jupyter
+.local
+.npm
