@@ -7,3 +7,8 @@
 .jupyter
 .local
 .npm
+
+.profile
+.wget-hsts
+.bash_logout
+.bashrc
