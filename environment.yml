@@ -1,5 +1,6 @@
 name: notebook
 channels:
+  - bokeh
   - conda-forge
   - https://conda.anaconda.org/conda-forge
   - defaults
@@ -8,7 +9,7 @@ dependencies:
   - setuptools
   - scikit-build
   - pybind11        # for pytp
-  - vs2015_runtime  # [win]
+#  - vs2015_runtime  # [win]
   - nose            # for testing
   - colorama
   - jupyterlab
